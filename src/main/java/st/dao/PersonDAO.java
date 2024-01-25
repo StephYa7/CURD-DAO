@@ -5,18 +5,19 @@ import st.models.Person;
 
 import java.util.ArrayList;
 import java.util.List;
+
 @Component
 public class PersonDAO {
+    private static int PEOPLE_COUNT;
     private List<Person> people;
-    private static int peopleCount;
 
     {
         people = new ArrayList<>();
 
-        people.add(new Person(++peopleCount, "John"));
-        people.add(new Person(++peopleCount, "Ivan"));
-        people.add(new Person(++peopleCount, "Peter"));
-        people.add(new Person(++peopleCount, "Bark"));
+        people.add(new Person(++PEOPLE_COUNT, "Tom"));
+        people.add(new Person(++PEOPLE_COUNT, "Bob"));
+        people.add(new Person(++PEOPLE_COUNT, "Mike"));
+        people.add(new Person(++PEOPLE_COUNT, "Katy"));
     }
 
     public List<Person> index() {

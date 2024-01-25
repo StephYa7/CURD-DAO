@@ -11,7 +11,8 @@ import st.dao.PersonDAO;
 @Controller
 @RequestMapping("/people")
 public class PeopleController {
-    private PersonDAO personDAO;
+
+    private final PersonDAO personDAO;
 
     @Autowired
     public PeopleController(PersonDAO personDAO) {

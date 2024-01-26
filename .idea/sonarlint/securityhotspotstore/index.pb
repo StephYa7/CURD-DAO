@@ -21,19 +21,3 @@ _
 .src/main/webapp/WEB-INF/views/people/show.html,0\0\00b704871c09fc6987aa529a2b388d65baa7a12f
 I
 src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
-O
-src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
-F
-src/main/webapp/q.html,1\4\1404ed21e8a967468ddad6d3dbe50ebd6396c942
-N
-src/main/webapp/WEB-INF/q.html,e\1\e142fc8c9558592bce2be9ab3396cf391f2c16b5
-T
-$src/main/webapp/WEB-INF/views/q.html,b\a\baee865bc42176087dd57157bc0ffc34ff211d99
-[
-+src/main/webapp/WEB-INF/views/people/q.html,8\e\8eb7d3472c33db74856253626a27d1a1bbce56ef
-^
-.src/main/webapp/WEB-INF/views/people/index.jsp,4\8\48f39c01dbe179feedc88b451366a999e1c2ba10
-W
-'src/main/webapp/WEB-INF/views/index.jsp,3\0\305b3bb8194d08e1e32b17ac5f1d53c1cf0118c1
-Q
-!src/main/webapp/WEB-INF/index.jsp,5\3\53f2773448a6c5938ccf5b998853f2da8ff8c2d4

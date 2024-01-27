@@ -28,3 +28,5 @@ I
 CURD.iml,3\a\3aa93919b40f961f23d9dbfa8177c67132d996e4
 ]
 -src/main/webapp/WEB-INF/views/people/new.html,9\7\97c3b486fa9c121f92d9aff1f5f3e8b144c7451f
+^
+.src/main/webapp/WEB-INF/views/people/edit.html,6\5\65684609741f2fbbbec8a75635079c03817e4212

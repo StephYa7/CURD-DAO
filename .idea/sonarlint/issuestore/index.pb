@@ -32,3 +32,7 @@ I
 .src/main/webapp/WEB-INF/views/people/edit.html,6\5\65684609741f2fbbbec8a75635079c03817e4212
 V
 &src/main/java/st/dao/PersonMapper.java,9\4\94b1ead98e4ad92147ed18cf77129cd2af94a8d4
+a
+1src/main/java/st/controllers/BatchController.java,c\8\c869652d0bc51b67d58a13bdb4fa3a6f483a4d3f
+^
+.src/main/webapp/WEB-INF/views/batch/index.html,3\3\330a9665a79737771a10691c733ab1bf404363be

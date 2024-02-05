@@ -1,5 +1,6 @@
 package st.controllers;
 
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -7,19 +8,19 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import st.dao.PersonDAO;
 import st.models.Person;
+import st.util.PersonValidator;
 
 import javax.validation.Valid;
 
 @Controller
+@AllArgsConstructor
 @RequestMapping("/people")
 public class PeopleController {
 
     private final PersonDAO personDAO;
+    private final PersonValidator personValidator;
 
-    @Autowired
-    public PeopleController(PersonDAO personDAO) {
-        this.personDAO = personDAO;
-    }
+
 
     @GetMapping()
     public String index(Model model) {
@@ -42,10 +43,14 @@ public class PeopleController {
     @PostMapping()
     public String create(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult) {
+
+        personValidator.validate(person, bindingResult);
         if (bindingResult.hasErrors()) {
             return "people/new";
         }
+
         personDAO.save(person);
+
         return "redirect:/people";
     }
 
@@ -59,10 +64,13 @@ public class PeopleController {
     public String update(@ModelAttribute("person") @Valid Person person,
                          BindingResult bindingResult,
                          @PathVariable("id") int id) {
+        personValidator.validate(person, bindingResult);
         if(bindingResult.hasErrors()){
             return "people/edit";
         }
+
         personDAO.update(id, person);
+
         return "redirect:/people";
     }
 

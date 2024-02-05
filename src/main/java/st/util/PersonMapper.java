@@ -1,4 +1,4 @@
-package st.dao;
+package st.util;
 
 import org.springframework.jdbc.core.RowMapper;
 import st.models.Person;

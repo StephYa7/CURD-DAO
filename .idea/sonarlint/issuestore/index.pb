@@ -5,10 +5,6 @@ n
 >src/main/java/st/configs/MySpringMvcDispatcherServletInit.java,c\4\c42508fab3be1c38fc1be73c6e16138001409c9b
 Z
 *src/main/java/st/configs/SpringConfig.java,d\c\dcf41549bc034ed2128810e27df1402db1071fa0
-^
-.src/main/webapp/WEB-INF/views/hello_world.html,0\8\08e27856f468281d1535d522c7eea892fa5f1526
-a
-1src/main/java/st/controllers/HelloController.java,a\8\a8829216de311da7c52d3371fc2c99fc71c711c8
 S
 #src/main/java/st/models/Person.java,4\5\45b999b783d66fd75e288ef1a6d68ccc037ba042
 S
@@ -30,8 +26,6 @@ I
 -src/main/webapp/WEB-INF/views/people/new.html,9\7\97c3b486fa9c121f92d9aff1f5f3e8b144c7451f
 ^
 .src/main/webapp/WEB-INF/views/people/edit.html,6\5\65684609741f2fbbbec8a75635079c03817e4212
-V
-&src/main/java/st/dao/PersonMapper.java,9\4\94b1ead98e4ad92147ed18cf77129cd2af94a8d4
 a
 1src/main/java/st/controllers/BatchController.java,c\8\c869652d0bc51b67d58a13bdb4fa3a6f483a4d3f
 ^
@@ -40,3 +34,9 @@ Z
 *src/main/java/st/util/PersonValidator.java,2\0\201c70b5b65e58e1d026d0dcd75e9901a2cd9adc
 W
 'src/main/java/st/util/PersonMapper.java,8\c\8cc3b0138f871c7442e49f2a19f6e973b55708d3
+a
+1src/main/java/st/controllers/AdminController.java,1\d\1d96f414261b9fd6e3db9c64d99f3bf4f2d0c0ec
+\
+,src/main/webapp/WEB-INF/views/adminPage.html,1\f\1f96d145ef3e4b107b283d794bc8cd269631bdcd
+U
+%src/main/webapp/WEB-INF/views/ee.html,6\4\643aeedda591ba063262d6b86db4e6eb7279c277

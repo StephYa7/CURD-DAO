@@ -21,7 +21,7 @@ public class AdminController {
     public String adminPage(Model model, @ModelAttribute("person") Person person) {
         model.addAttribute("people", personDAO.index());
 
-        return "ee";
+        return "admin";
     }
 
     @PatchMapping("/add")

@@ -36,7 +36,5 @@ W
 'src/main/java/st/util/PersonMapper.java,8\c\8cc3b0138f871c7442e49f2a19f6e973b55708d3
 a
 1src/main/java/st/controllers/AdminController.java,1\d\1d96f414261b9fd6e3db9c64d99f3bf4f2d0c0ec
-\
-,src/main/webapp/WEB-INF/views/adminPage.html,1\f\1f96d145ef3e4b107b283d794bc8cd269631bdcd
 U
 %src/main/webapp/WEB-INF/views/ee.html,6\4\643aeedda591ba063262d6b86db4e6eb7279c277
